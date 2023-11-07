@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         etEmail = this.findViewById(R.id.account_email);
         etPassword = this.findViewById(R.id.account_password);
         btnSignIn = this.findViewById(R.id.btn_sign);
-        
+
         signIn();
         goToSignUp();
     }
@@ -54,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
     }
 
     private void goToSignUp() {
@@ -63,7 +62,6 @@ public class MainActivity extends AppCompatActivity {
             startActivity(signUpIntent);
         }
     }
-
 
     @Override
     protected void onStart() {

@@ -96,6 +96,7 @@
                 android:layout_marginStart="25dp"
                 android:text="@string/click"
                 android:textColor="@color/brown" />
+
         </LinearLayout>
     </LinearLayout>
 </FrameLayout>

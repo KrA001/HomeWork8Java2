@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
         btnSignIn = this.findViewById(R.id.btn_sign);
 
         signIn();
-        goToSignUp();
     }
 
     private void signIn() {
@@ -57,10 +56,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void goToSignUp() {
-        {
-            Intent signUpIntent = new Intent(MainActivity.this, SecondActivity.class);
-            startActivity(signUpIntent);
-        }
+        Intent signUpIntent = new Intent(MainActivity.this, SecondActivity.class);
+        startActivity(signUpIntent);
     }
 
     @Override

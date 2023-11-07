@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HomeWork8Java2</string>
+    <string name="vhod">Вход</string>
+    <string name="voyti">Выполните вход \n или зарегистрируйтесь</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="acount_register">Выполнен вход \n или зарегистрируйтесь</string>
+    <string name="email">Введите вашу почту</string>
+    <string name="passwor">Введите пароль</string>
+    <string name="come">Войти</string>
+    <string name="forgot_password">Забыл пароль?</string>
+    <string name="click">Нажми сюда</string>
+</resources>

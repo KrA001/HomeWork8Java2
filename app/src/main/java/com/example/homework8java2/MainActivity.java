@@ -43,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
                 String email = etEmail.getText().toString().trim();
                 String password = etPassword.getText().toString().trim();
                 if (email.isEmpty() && password.isEmpty()) {
+                    etEmail.setError("No value");
+                    etPassword.setError("No value");
                     Toast.makeText(MainActivity.this, "Введите что-нибудь", Toast.LENGTH_SHORT).show();
                 }
                 if (signInInfo.containsKey(password) && signInInfo.containsValue(email)) {
